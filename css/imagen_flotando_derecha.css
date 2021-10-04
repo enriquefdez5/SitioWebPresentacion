@@ -1,0 +1,14 @@
+/* a=0 b=0 c=1 -> specificity =   1*/
+figure {
+    display: inline-block;
+    margin: 0.8em;
+    float: right;
+}
+/* a=0 b=0 c=2 -> specificity =   2*/
+figure img {
+    vertical-align: top;
+}
+/* a=0 b=0 c=2 -> specificity =   2*/
+figure figcaption {
+    text-align: center;
+}

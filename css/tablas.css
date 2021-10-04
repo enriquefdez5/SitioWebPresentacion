@@ -1,0 +1,15 @@
+/* a=0 b=0 c=1 -> specificity =   1*/
+table {
+    border: 0.25em solid black;
+}
+
+/* a=0 b=0 c=1 -> specificity =   1*/
+th,td {
+    width: 5%;
+    text-align: left;
+    font-size: 0.8em;
+    vertical-align: top;
+    border-spacing: 0em;
+    border: 0.05em solid black;
+    padding: 0.25em;
+}
