@@ -2,9 +2,10 @@
 nav {
     overflow: hidden;
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    border-radius: 0.8em;
 }
 
 /* a=0 b=0 c=2 -> specificity =   2*/
@@ -40,11 +41,13 @@ body {
     line-height: 1.8em;
     color: black;
     background-color: white;
-    text-align: justify;
+    text-align: left;
 }
 
 /* a=0 b=0 c=1 -> specificity =   1 */
 section {
+    display: inline-block;
+    width: 70%;
     padding: 0.8em;
 }
 
@@ -71,14 +74,14 @@ h1,h2 {
 
 /* a=0 b=1 c=1 -> specificity =   11*/
 a:link {
-    color: lightskyblue;
+    color: #392EDC;
     background-color: transparent;
     text-decoration: none;
 }
 
 /* a=0 b=1 c=1 -> specificity =   11*/
 a:visited {
-    color: blue;
+    color: #2F5065;
     background-color: transparent;
     text-decoration: none;
 }
