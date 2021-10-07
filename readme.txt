@@ -52,6 +52,8 @@ Consideraciones a tener en cuenta durante la realización de la práctica.
                     siguiendo la recomendación que me ha dado la profesora de la asignatura. 
     - Respecto al estado del estilo en la presentación, se ha modificado ligeramente el nav, ya que tenía un atributo de estilo "position: fixed", he considerado que 
       esto dificultaba la capacidad que tenía el sitio web de que fuera completamente responsive, por lo que decidido eliminarlo y dejar un nav en la posición que le corresponde.
+    - En cuanto a las etiquetas meta, inicialmente se había incluido <meta name="application-name", pero se ha decidido eliminarla ya que en https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name 
+        recomiendan "Simple web pages shouldn't define an application-name."
 
 
 
