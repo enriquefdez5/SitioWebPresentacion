@@ -11,5 +11,5 @@ figure img {
 /* a=0 b=0 c=2 -> specificity =   2*/
 figure figcaption {
     text-align: left;
-    width: 80%;
+    width: 60%;
 }

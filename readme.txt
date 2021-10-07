@@ -32,8 +32,26 @@ El sitio web está formado por 4 archivos en formato html.
         imagen_flotando_izquierda.css: Hoja de estilo para colocar las imagenes flotando a la izquierda.
         tablas.css: Hoja de estilo para dar diseño a la única tabla del documento. Da estilo a la tabla 
                     y su contenido.
-        tajetas_secciones.css: Convierte las secciones en una especie de tarjeta, en la que las imagenes estarán a la izquierda con su pie de página y el contenido se mostrará a la derecha, todo marcado con un borde.
+        tajetas_secciones.css: Convierte las secciones en una especie de tarjeta, en la que las imagenes estarán a la izquierda con su pie de página y 
+                                el contenido se mostrará a la derecha, todo marcado con un borde.
         video.css: Hoja de estilo para el elemento video.
 
     Por último, la carpeta Multimedia contiene las imágenes, audios y videos necesarios.
+
+
+
+Consideraciones a tener en cuenta durante la realización de la práctica.
+    - Atributo accessKey: Se han utilizado accessKey para los enlaces. Esta práctica favorece la interación con la web mediante el teclado, pero también es una práctica que puede 
+                            provocar confusión al usuario ya que los atajos pueden ser conflictivos con algunos atajos del navegador o del SO, por lo que algunas herramientas,
+                             como Wave, marcan como advertencia el uso de este atributo.
+    - Atributo tabindex: Wave también marca como advertencia el uso de este atributo. Además, webaim no recomienda su uso con un valor de 1 o +(positivo), ya que se altera 
+                            el orden lógico de navegación del documento. https://webaim.org/techniques/keyboard/tabindex. Se ha decidido usar un valor 0 para que se siga el 
+                            orden del código fuente del documento
+    - Video y audio: Se ha añadido un elemento <p> a cada uno de estos elementos para poder leer su contenido y así mejor la accesibilidad. Según el estándar de html5 se puede utilizar 
+                    el elemento <figure> y dentro de este <figcaption> para encapsular al elemento video y así también mejorar la accesibilidad, pero se ha optado por la primera opción, 
+                    siguiendo la recomendación que me ha dado la profesora de la asignatura. 
+    - Respecto al estado del estilo en la presentación, se ha modificado ligeramente el nav, ya que tenía un atributo de estilo "position: fixed", he considerado que 
+      esto dificultaba la capacidad que tenía el sitio web de que fuera completamente responsive, por lo que decidido eliminarlo y dejar un nav en la posición que le corresponde.
+
+
 
